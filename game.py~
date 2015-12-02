@@ -1,11 +1,9 @@
 from meet import *
 import random 
 num_cells=0
+balls={'radius':random.randint(0,100) ,'x':random.randint(0,100),'y':random.randint(0,100) ,'dx':.2,'dy':.3}
 
-cells=[]
 while num_cells<30:
-	balls={'radius':random.randint(0,100) ,'x':random.randint(0,100),'y':random.randint(0,100) ,'dx':.2,'dy':.3}
-
 	cells=[]
 	num_cells+=1
 	circle1 = create_cell(balls)
