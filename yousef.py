@@ -1,0 +1,8 @@
+import animalfile 
+dog = animalfile.Animal("7ashesh","brown",5)
+cat = animalfile.Animal("is","black",4)
+mouse = animalfile.Animal("high","green",6)
+
+
+print(str(dog.name)+ " is "+str(dog.age)+" years old")
+
